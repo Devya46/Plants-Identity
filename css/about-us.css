@@ -1,0 +1,155 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+
+body{
+      min-height: 100vh;
+      /* display: flex; */
+      align-items: center;
+      justify-content: center;
+      background-color: #f1f1f1;
+      box-sizing: border-box;
+}
+.about{
+      background: url(../photos/flowers-3975556_1920.jpg) no-repeat left;
+      background-size: 55%;
+      background-color: #f1f1f1;
+      overflow: hidden;
+      padding: 100px 0;
+}
+.abt{
+      background: url(../photos/pexels-maria-orlova-4916559.jpg) no-repeat right;
+      background-size: 55%;
+      background-color: #f1f1f1;
+      overflow: hidden;
+      padding: 100px 0;
+}
+.inner-section{
+      width: 35%;
+      float: right;
+      background-color: #fdfdfd;
+      padding: 140px;
+      box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+}
+.ir-sectn{
+      width: 35%;
+      float: left;
+      background-color: #fdfdfd;
+      padding: 140px;
+      box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+}
+.inner-section h1{
+      margin-bottom: 30px;
+      font-size: 42px;
+      font-weight: 900;
+      color:#232d60;
+}
+.ir-sectn h1{
+      margin-bottom: 30px;
+      font-size: 42px;
+      font-weight: 900;
+      color:#232d60;
+}
+.text{
+      font-size: 18px;
+      color:#232d60;
+      line-height: 30px;
+      text-align: justify;
+      margin-bottom: 40px;
+}
+.skills .button
+{
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 2px;
+      border: none;
+      border-radius: 20px;
+      padding: 8px;
+      width: 200px;
+      background: linear-gradient(45deg, #87adfe, #ff77cd);
+      color: white;
+      cursor: pointer;
+      text-decoration: none;
+}
+.skills button:hover{
+      transition: 1s;
+      background-color: #ecf5f5;
+      color: #00999c;
+}
+
+
+/* Our Team  */
+
+.cnter {
+      margin: 20px 40px;
+      /* color: white; */
+}
+.heading {
+      font-size: 60px;
+      text-align: center;
+      /* color: navy; */
+}
+
+.heading span{
+      font-style: italic;
+      font-size: 30px;
+}
+
+.profiles{
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 80px;
+}
+
+.profile{
+      flex-basis: 260px;
+}
+.profile img{
+      height: 260px;
+      width: 260px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: 400ms;
+      padding: 10px;
+}
+.user-name{
+      margin-top: 30px;
+      font-size: 34px;
+}
+.profile h5{
+      font-size: 18px;
+      font-weight: 100;
+      letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

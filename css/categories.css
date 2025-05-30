@@ -1,0 +1,138 @@
+/* Utility Classes */
+.h-primary{
+      font-size: 4.1rem;
+      padding: 10px;
+      text-align: center;
+}
+.h-secondary {
+      font-size: 3rem;
+      padding: 12px;
+}
+.btn {
+      padding: 4px 24px;
+      border: 3px solid white;
+      background-color: white;
+      margin: 17px;
+      font-size: 1.5rem;
+      border-radius: 10px;
+      cursor: pointer;    
+ }
+ 
+.center {
+      text-align: center;
+      font-size: 1.3rem;
+}
+
+/* CSS Reset  */
+*{
+      margin: 0;
+      padding: 0;
+}
+
+/* CSS Variable */
+:root{
+      --navbar-height: 59px;
+}
+
+/* Navigation Bar  */
+#navbar {
+      display: flex;
+      align-items: center;
+      position: relative;
+      top: 0px;
+}
+
+/* Navigation Bar: Logo and Image  */
+#logo{
+      margin: 12px 35px ;
+      
+}
+#logo img{
+      height: 90px;
+      margin: 1px 1px ;
+}
+
+/* Navigation Bar: List Styling  */
+#navbar::before {
+      content: "";
+      background-color: black;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.7;
+}
+
+#navbar h1{
+list-style: none;
+font-size: 1.5rem;
+}
+#navbar h1 a{
+      color: black;
+      display: block;
+      padding: 3px 22px;
+      border-radius: 20px;
+      text-decoration: none;
+      }
+     
+      /* Home Section  */
+      #home{
+            display: flex;
+            flex-direction: column;
+            padding: 3px 200px;
+            height: 576px;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 3px 3px 8px green;
+      }
+      #home::before{
+           content: "";
+           position: absolute;
+           background:url('../herbs photos/leaf-3070153_1920.jpg') no-repeat center center/cover ;
+           height: 77%;
+           top: 0px;
+           left: 0px;
+           width: 100%;
+           z-index: -1;
+           opacity: 0.8;
+      }
+
+      #home h1{
+            text-align: center;
+            
+            font-size: 5rem;
+      }
+      #home p{
+            text-align: center;
+            font-size: 1.5rem;
+            
+      }
+
+      /* Services Section  */
+      #services{
+            margin: 38px;
+            display: flex;
+            
+      }
+
+      #services .box{
+            border: 2px solid brown;
+            padding: 34px;
+            margin: -20px 6px;
+            border-radius: 28px;
+            background: #f1eeee;
+      }
+      #services .box img{
+            height: 175px;
+            margin: auto;
+            display: block;
+      }
+
+
+
+
+
+      
+      
